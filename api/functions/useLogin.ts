@@ -1,4 +1,4 @@
-import { client } from "../db/index.ts";
+import { client } from "../db/index";
 
 const useLogin = async (gas: Info) => {
   let resp;
