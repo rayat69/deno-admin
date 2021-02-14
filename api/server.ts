@@ -1,6 +1,6 @@
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 
-import useLogin from "./functions/useLogin.ts";
+import useLogin from "./functions/useLogin";
 
 const app = new Application();
 const router = new Router();
