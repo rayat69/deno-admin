@@ -1,4 +1,4 @@
-import { Client } from "https://deno.land/x/mysql/mod.ts";
+import { Client } from "https://deno.land/x/mysql/mod";
 
 export const client = await new Client().connect({
   hostname: "localhost",
